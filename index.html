@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Nama Digital</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #8e44ad, #e91e63);
+            margin: 0;
+        }
+        .card {
+            width: 400px;
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #e91e63;
+            margin-right: 15px;
+        }
+        .info-container {
+            flex: 1;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .title {
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .info {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .icon {
+            margin-right: 8px;
+        }
+        .rate {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="rahma.jpg" alt="Profile Picture" class="profile-img">
+        <div class="info-container">
+            <div class="name">Afifah Naufal Rahmani</div>
+            <div class="title">Creative Director</div>
+            <div class="info">
+                <p><span class="icon">📞</span> +62 82318079929</p>
+                <p><span class="icon">🌍</span> Universitas Logistik dan Bisnis Internasional</p>
+                <p><span class="icon">✉️</span> afifahrahmani466@gmail.com</p>
+                <p><span class="icon">📍</span> puri cipageran indah 2</p>
+            </div>
+            <div class="rate">💰$3,03</div>
+        </div>
+    </div>
+</body>
+</html>
